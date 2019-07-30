@@ -10,7 +10,7 @@ mybatis:
   type-aliases-package: com.wk.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: prod # 开发环境
+  profiles: dev # 开发环境
   application:
     name: microservice-product-config			# ******服务名*******
   datasource:
@@ -42,7 +42,7 @@ mybatis:
   type-aliases-package: com.wk.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: dev # 生产环境
+  profiles: prod # 生产环境
   application:
     name: microservice-product-config			# ******服务名*******
   datasource:
